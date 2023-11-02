@@ -10,10 +10,10 @@ tags:
   - name: user
     description: Operations about user
 paths:
-  /employee:
+  /user:
     post:
       tags:
-        - user
+        - create
       summary: Create New User
       description: Create New User.
       operationId: createUser
