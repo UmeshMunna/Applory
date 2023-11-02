@@ -13,7 +13,7 @@ paths:
   /user:
     post:
       tags:
-        - create
+        - user
       summary: Create New User
       description: Create New User.
       operationId: createUser
@@ -38,7 +38,7 @@ paths:
         - user
       summary: Get list of users
       description: Get list of users
-      operationId: getUsersList
+      operationId: getUsersALL
       parameters:
         - $ref: "#/components/parameters/x-transaction-id"
       responses:
