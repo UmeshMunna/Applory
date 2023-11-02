@@ -10,7 +10,7 @@ tags:
   - name: user
     description: Operations about user
 paths:
-  /user:
+  /employee:
     post:
       tags:
         - user
