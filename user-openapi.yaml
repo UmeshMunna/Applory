@@ -5,7 +5,7 @@ info:
     This is a REST API example on managing user accounts.
   version: 00.01.00
 servers:
-  - url: http://localhost:9998/
+  - url: http://localhost:9999/
 tags:
   - name: user
     description: Operations about user
@@ -38,7 +38,7 @@ paths:
         - user
       summary: Get list of users
       description: Get list of users
-      operationId: getUsersALL
+      operationId: getUsersList
       parameters:
         - $ref: "#/components/parameters/x-transaction-id"
       responses:
